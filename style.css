@@ -182,11 +182,33 @@ html{
         margin-left: 5vw;
         margin-right: 5vw;
         margin-top: 2vw;
+        display: flex;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
 
         .card{
             background-color: #2e2f34;
             height: 20vw;
             width: 15vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1vw;
+
+            img{
+                height: 8vw;
+            }
+            h1{
+                color: white;
+                font-size: 1vw;
+            }
+            p{
+                color: white;
+                font-size: .8vw;
+            }
         }
     }
 }
