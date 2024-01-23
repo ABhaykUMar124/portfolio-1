@@ -210,5 +210,31 @@ html{
                 font-size: .8vw;
             }
         }
+
+    }
+    .work-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10gitvw;
+        margin-top: 2vw;
+
+        .work-delails{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1vw;
+
+            h1{
+                font-size: 2vw;
+                color:#d3ab32 ;
+            }
+            p{
+                font-size: 1vw;
+                color: white;
+            }
+        }
     }
 }
