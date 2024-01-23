@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page1-home{
+    height: 48vw;
+    background-color: rgba(46,47,52,255);
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        padding-top: 2vw;
+        position: sticky;
+        top: 0;
+        position: relative;
+
+        .logo{
+            height: 4vw;
+        }
+        .navbar-menu{
+            display: flex;
+            gap: 4vw;
+            
+
+            .navbar-items{
+                font-size: 1vw;
+                text-decoration: none;
+                color: white;
+                list-style: none;
+                font-weight: bold;
+            }
+        }
+        .icon-logo{
+            display: flex;
+            align-items: center;
+            gap: 1vw;
+            border-left: 2px solid white;
+            padding-left: 1vw;
+
+            .icon{
+                height: 1vw;
+            }
+        }
+    }
+    .information-part{
+        display: grid;
+        grid-template-columns: 1fr  1fr  1fr;
+        margin-top: 6vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+
+        .details{
+
+            .name{
+                font-size: 3.5vw;
+                color: white;
+            }
+            hr{
+                width: 3vw;
+                padding-left: 1vw;
+            }
+            .Contact{
+                padding-top: 1vw;
+                display: flex;
+                gap: 1vw;
+                flex-direction: column;
+
+                .Contact-details{
+                    font-size: 1vw;
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 300;
+                    margin-bottom: 1vw;
+                    
+                    
+                }
+                .Facebook{
+                    margin-left: 1vw;
+                    border-left: 2px solid white;
+                    padding-left: 1vw;
+                }
+
+            }
+            .Contact-btn{
+                padding-top: .8vw;
+                padding-bottom: .8vw;
+                padding-left: 1.5vw;
+                padding-right: 1.5vw;
+                background-color: transparent;
+                border: 2px solid #d3ab32;
+                color: #d3ab32;
+                font-weight: bold;
+                letter-spacing: .1vw;
+                cursor: pointer;
+                margin-top: 3vw;
+                font-size: 1vw;
+            }
+        }
+        .image-section{
+                display: flex;
+                justify-content: center;
+                /* align-items: center; */
+
+            .background{
+                height: 30vw;
+                width: 30vw;
+                background-color: #2b2b33;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                border-radius: 50%;
+                
+            }
+            .dp-image{
+                z-index: 55;
+                height: 36vw;
+            }
+        }
+        .introduction{
+
+            .intro-text{
+                font-size: 1vw;
+                color:#d3ab32 ;
+                letter-spacing: .2vw;
+            }
+            .intro-description{
+                margin-top: 1vw;
+                font-size: .8vw;
+                color: white;
+                line-height: 1.3vw;
+            }
+            .learn-more{
+                
+                padding-top: 1vw;
+                a{
+                    text-decoration: none;
+                    font-size: 1vw;
+                    color:#d3ab32 ;
+                    text-decoration: none;
+                }
+
+            }
+        }
+
+
+    }
+}
+#page2-Services{
+    height: 50vw;
+    background-color: rgba(52,53,58,255);
+
+    .Services-text{
+
+        h1{
+            color:#d3ab32 ;
+            text-align: center;
+            padding-top: 8vw;
+            letter-spacing: .1vw;
+            font-size: 1.5vw;
+
+        }
+        p{
+            text-align: center;
+            font-size: 1vw;
+            color: white;
+            line-height: 1.5vw;
+        }
+    }
+    .card-section{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 2vw;
+
+        .card{
+            background-color: #2e2f34;
+            height: 20vw;
+            width: 15vw;
+        }
+    }
+}
