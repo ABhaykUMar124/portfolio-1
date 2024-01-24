@@ -268,7 +268,7 @@ html{
     }
 }
 #page4-contact{
-    height: 30vw;
+    height: 35vw;
     background-color: #34353a;
 
     .Contact-section{
@@ -312,6 +312,7 @@ html{
             
 
             .box{
+                cursor: pointer;
                 margin-left: 8vw;
                 height: 3vw;
                 width: 18vw;
@@ -334,5 +335,16 @@ html{
             }
 
         }
+    }
+    hr{
+        margin-top: 8.5vw;
+        border: .1vw solid #d3ab32;
+        
+    }
+    p{
+        text-align: center;
+        color: white;
+        font-size: 1vw;
+        margin-top: 1vw;
     }
 }
