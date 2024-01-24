@@ -217,7 +217,7 @@ html{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 10gitvw;
+        gap: 10vw;
         margin-top: 2vw;
 
         .work-delails{
@@ -236,5 +236,34 @@ html{
                 color: white;
             }
         }
+    }
+}
+#page3-projects{
+    height: 45vw;
+    background-color: #2e2f34;
+
+    .project-section{
+        display: flex;
+        gap: .5vw;
+        flex-direction: column;
+
+            h1{
+                text-align: center;
+                color: #d3ab32;
+                padding-top: 7vw;
+                font-size: 1.5vw;
+                letter-spacing: .1vw;
+            }
+            h2{
+                font-size: 1.5vw;
+                color: white;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                color: white;
+                font-size: 1vw;
+                line-height: 1.5vw;
+            }
     }
 }
